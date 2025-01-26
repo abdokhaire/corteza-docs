@@ -40,11 +40,23 @@ scoop install sass
 |===
 
 Alternatively, you can download Dart Sass binaries directly from the https://github.com/sass/dart-sass/releases[dart-sass release page].
-
 [IMPORTANT]
 ====
 When using prebuilt binaries, make sure to add Dart Sass to your system's PATH.
 ====
+
+If you are using latest version of dart-sass using snap you need to create alias for sass:
+[source, bash]
+----
+sudo snap alias dart-sass sass
+----
+To remove the alias:
+[source, bash]
+----
+sudo snap unalias sass
+----
+
+
 
 == Build Environment
 
